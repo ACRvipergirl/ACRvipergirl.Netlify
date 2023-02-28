@@ -4,7 +4,7 @@ netlify.config (function($routeProvider) {
     $routeProvider
     .when('/', {
         templateUrl: 'home.html',
-        controller: 'FirstController'
+
     })
 });
 
@@ -13,11 +13,11 @@ netlify.config (function($routeProvider) {
 netlify.controller('netlifyControl', function($scope){
 
 
-$scope.netlifyIdentity.on('init', () => {
+netlifyIdentity.on('init', () => {
     initUser = netlifyIdentity.currentUser();
 });
 
-$scope.netlifyIdentity.on('login', () => {
+netlifyIdentity.on('login', () => {
 
     if (initUser == null) {
         window.location.replace('home')
@@ -25,7 +25,7 @@ $scope.netlifyIdentity.on('login', () => {
     netlifyIdentity.close();
 });
 
-$scope.netlifyIdentity.on('logout', () => {
+netlifyIdentity.on('logout', () => {
     netlifyIdentity.close();
     window.location.replace('/');
 });
