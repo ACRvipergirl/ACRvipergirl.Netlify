@@ -1,0 +1,22 @@
+.sidebar {
+    margin: 0;
+  padding: 0;
+  width: 175px;
+  background-color: #1bd0d6;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  color:white;
+}
+.card1 
+{
+padding-left: 200px;
+position: fixed;
+}
+
+.cardright {
+    display: block;
+    padding-top: 100px;
+    padding-left: 500px;
+
+}
