@@ -3,6 +3,7 @@ netlifyIdentity.on('init', () => {
 });
 
 netlifyIdentity.on('login', () => {
+    debugger;
     if (initUser == null) {
         window.location.replace('home')
     }
