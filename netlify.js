@@ -3,12 +3,8 @@ const netlify = angular.module('netlifySite',["ngRoute"]);
 netlify.config (function($routeProvider) {
     $routeProvider
     .when('/', {
-        templateUrl: 'index.html',
-        controller: 'FirstController'
-    })
-    .when('/home', {
         templateUrl: 'home.html',
-        controller: 'SecondController'
+        controller: 'FirstController'
     })
 });
 
