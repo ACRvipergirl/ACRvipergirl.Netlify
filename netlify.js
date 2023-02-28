@@ -1,33 +1,34 @@
-const netlify = angular.module('netlifySite',["ngRoute"]);
+const netlify = angular.module('netlifySite', ["ngRoute"]);
 
-netlify.config (function($routeProvider) {
+netlify.config(function ($routeProvider) {
     $routeProvider
-    .when('/', {
-        templateUrl: 'home.html',
+        .when('/', {
+            templateUrl: 'home.html',
 
-    })
+        })
 });
 
 
 
-netlify.controller('netlifyControl', function($scope){
+netlify.controller('netlifyControl', function ($scope) {
 
+    let initUser = netlifyIdentity.currentUser();
 
-$scope.netlifyIdentity.on('init', () => {
-    initUser = netlifyIdentity.currentUser();
-});
+    netlifyIdentity.on('init', () => {
+        initUser = netlifyIdentity.currentUser();
+    });
 
-$scope.netlifyIdentity.on('login', () => {
+    netlifyIdentity.on('login', () => {
 
-    if (initUser == null) {
-        window.location.replace('home')
-    }
-    netlifyIdentity.close();
-});
+        if (initUser == null) {
+            window.location.replace('home')
+        }
+        netlifyIdentity.close();
+    });
 
-$scope.netlifyIdentity.on('logout', () => {
-    netlifyIdentity.close();
-    window.location.replace('/');
-});
+    netlifyIdentity.on('logout', () => {
+        netlifyIdentity.close();
+        window.location.replace('/');
+    });
 
 });

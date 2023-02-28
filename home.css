@@ -1,6 +1,6 @@
 h2 {
     text-align: center;
-font-weight: bolder;
+    font-weight: bolder;
 }
 
 
@@ -10,7 +10,7 @@ font-weight: bolder;
 
 
 .mainbody {
-    text-align:center;
+    text-align: center;
 }
 
 .bg-img {
@@ -21,66 +21,70 @@ font-weight: bolder;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
     position: relative;
-    
-  }
 
-  .nav-item {margin-left: 30px;
-    font-weight: bolder;
-color:white;}
-
-.navbar {
-    color:white;
-font-weight: 800;
 }
 
-.clean { color:white;
-font-size: 75px;
-font-weight: 800;}
+.nav-item {
+    margin-left: 30px;
+    font-weight: bolder;
+    color: white;
+}
+
+.navbar {
+    color: white;
+    font-weight: 800;
+}
+
+.clean {
+    color: white;
+    font-size: 75px;
+    font-weight: 800;
+}
 
 .blog {
-    color:white;
-text-align: center;
- }
+    color: white;
+    text-align: center;
+}
 
 .line-2 {
     height: 1px;
     background: lightgrey;
-    margin-left:0;
-    margin-right:0;
+    margin-left: 0;
+    margin-right: 0;
     margin-top: 5%;
 }
 
 
 
 i {
-    margin-top: 100px ;
+    margin-top: 100px;
     text-align: center;
-    height:50px;
-    width:50px;
-    
-    }
+    height: 50px;
+    width: 50px;
 
-    .button {
-        margin-left:450px;
-        margin-bottom: 100px;
-    
 }
 
-    .line-1 {
-        height: 1px;
-        background: lightgrey;
-        margin-left:500px;
-        margin-right:500px
-      }
+.button {
+    margin-left: 450px;
+    margin-bottom: 100px;
 
-      .header1 {
-        top:40%;
-        position: absolute;
-        width: 100%;
-    
-    }
+}
+
+.line-1 {
+    height: 1px;
+    background: lightgrey;
+    margin-left: 500px;
+    margin-right: 500px
+}
+
+.header1 {
+    top: 40%;
+    position: absolute;
+    width: 100%;
+
+}
 
 .footer1 {
     text-align: center;
@@ -88,18 +92,18 @@ i {
 
 .line2 {
     font-family: cursive;
-font-size: 15px;
-color: grey;
+    font-size: 15px;
+    color: grey;
 }
 
 .line1 {
     font-size: 25px;
-color:black;
-font-family: Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
 .line4 {
     font-size: 25px;
     font-family: Georgia, Times, 'Times New Roman', serif;
- 
+
 }
