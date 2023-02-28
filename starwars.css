@@ -1,0 +1,87 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/40/c7/12/40c712e5f3833bc38dbe1213da27069e.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+  .page-title { 
+    color:yellow;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 6em;
+    font-family:'Star Wars', sans-serif;
+  }
+  
+  .page-title2 { color:yellow;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 10px;
+    font-family:'Star Wars', sans-serif;
+  
+  }
+  
+  .game-info-container {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  
+  .game-info {
+    color:yellow;
+    font-size: 4em;
+    font-family: 'Star Wars', sans-serif;
+  
+  }
+  
+  .game-button {
+    background-color: black;
+    color:red;
+    font-size: 4em;
+    font-family: 'Star Wars', sans-serif;
+  }
+  
+  .game-container {
+    justify-content: center;
+  }
+  
+  
+  .card {
+    background-image: url(https://screenrant.com/wp-content/uploads/2022/11/Star-Wars-Franchise-Image.jpg);
+    background-size: 200px 200px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    perspective: 200px;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+    transform: rotateY(360deg);
+  }
+  
+  
+  .back {
+    background-size: 200px 200px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    perspective: 200px;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+    color: yellow;
+    }
+  
+  .gamecontainer {
+    width: 200px;
+    height: 200px;
+    background:none;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    margin-top: 700px;
+    padding-left: 700px;
+    padding-bottom:1200px;
+  }
