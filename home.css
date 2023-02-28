@@ -1,15 +1,20 @@
-h2 
-{text-align: center;
-font-weight: bolder;}
-
-
-.iconsp {font-size: 10px;}
-
-
-.mainbody {text-align:center;
+h2 {
+    text-align: center;
+font-weight: bolder;
 }
 
-.bg-img {background-image: url(https://images.pexels.com/photos/442574/pexels-photo-442574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+
+.iconsp {
+    font-size: 10px;
+}
+
+
+.mainbody {
+    text-align:center;
+}
+
+.bg-img {
+    background-image: url(https://images.pexels.com/photos/442574/pexels-photo-442574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 
     min-height: 500px;
 
@@ -34,12 +39,12 @@ font-weight: 800;
 font-size: 75px;
 font-weight: 800;}
 
-.blog {color:white;
+.blog {
+    color:white;
 text-align: center;
- ;}
+ }
 
-.line-2 
-{
+.line-2 {
     height: 1px;
     background: lightgrey;
     margin-left:0;
@@ -49,14 +54,16 @@ text-align: center;
 
 
 
-i {margin-top: 100px ;
+i {
+    margin-top: 100px ;
     text-align: center;
     height:50px;
     width:50px;
     
     }
 
-    .button {margin-left:450px;
+    .button {
+        margin-left:450px;
         margin-bottom: 100px;
     
 }
@@ -68,7 +75,8 @@ i {margin-top: 100px ;
         margin-right:500px
       }
 
-      .header1 {top:40%;
+      .header1 {
+        top:40%;
         position: absolute;
         width: 100%;
     
@@ -78,15 +86,20 @@ i {margin-top: 100px ;
     text-align: center;
 }
 
-.line2 {font-family: cursive;
+.line2 {
+    font-family: cursive;
 font-size: 15px;
-color: grey}
+color: grey;
+}
 
-.line1 {font-size: 25px;
+.line1 {
+    font-size: 25px;
 color:black;
-font-family: Georgia, Times, 'Times New Roman', serif}
+font-family: Georgia, Times, 'Times New Roman', serif;
+}
 
-.line4 {font-size: 25px;
-    font-family: Georgia, Times, 'Times New Roman', serif
+.line4 {
+    font-size: 25px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
  
 }
