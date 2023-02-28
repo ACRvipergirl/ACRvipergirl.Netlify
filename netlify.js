@@ -27,7 +27,7 @@ netlify.controller('netlifyControl', function ($scope) {
     netlifyIdentity.on('login', () => {
 
         if (initUser == null) {
-            window.location.replace('test')
+            window.location.replace('#!home')
         }
         netlifyIdentity.close();
     });
