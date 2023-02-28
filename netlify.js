@@ -5,10 +5,10 @@ netlify.config(function ($routeProvider) {
         .when('/', {
             templateUrl: 'test.html',
         })
-        .when('home', {
+        .when('/home', {
             templateUrl: 'test.html',
         })
-        .when('portfolio', {
+        .when('/portfolio', {
             templateUrl: 'home.html',
         });
 
