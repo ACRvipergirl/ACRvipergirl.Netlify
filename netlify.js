@@ -2,7 +2,7 @@ const netlify = angular.module('netlifySite',["ngRoute"]);
 
 netlify.config (function($routeProvider) {
     $routeProvider
-    .when('/index', {
+    .when('/', {
         templateUrl: 'index.html',
         controller: 'FirstController'
     })
