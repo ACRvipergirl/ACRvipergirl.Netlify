@@ -13,11 +13,11 @@ netlify.config (function($routeProvider) {
 netlify.controller('netlifyControl', function($scope){
 
 
-netlifyIdentity.on('init', () => {
+$scope.netlifyIdentity.on('init', () => {
     initUser = netlifyIdentity.currentUser();
 });
 
-netlifyIdentity.on('login', () => {
+$scope.netlifyIdentity.on('login', () => {
 
     if (initUser == null) {
         window.location.replace('home')
@@ -25,7 +25,7 @@ netlifyIdentity.on('login', () => {
     netlifyIdentity.close();
 });
 
-netlifyIdentity.on('logout', () => {
+$scope.netlifyIdentity.on('logout', () => {
     netlifyIdentity.close();
     window.location.replace('/');
 });
