@@ -8,6 +8,10 @@ netlify.config(function ($routeProvider) {
         .when('home', {
             templateUrl: 'test.html',
         })
+        .when('portfolio', {
+            templateUrl: 'home.html',
+        })
+
 });
 
 
