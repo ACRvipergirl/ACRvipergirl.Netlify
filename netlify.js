@@ -3,7 +3,7 @@ netlifyIdentity.on('init', () => {
 });
 netlifyIdentity.on('login', () => {
     if (initUser == null) {
-        window.location.replace('landing')
+        window.location.replace('home')
     }
     netlifyIdentity.close();
 });
