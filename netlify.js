@@ -10,7 +10,7 @@ netlify.config(function ($routeProvider) {
         })
         .when('portfolio', {
             templateUrl: 'home.html',
-        })
+        });
 
 });
 
@@ -27,7 +27,7 @@ netlify.controller('netlifyControl', function ($scope) {
     netlifyIdentity.on('login', () => {
 
         if (initUser == null) {
-            window.location.replace('#!portfolio')
+            window.location.replace('#!portfolio');
         }
         netlifyIdentity.close();
     });
